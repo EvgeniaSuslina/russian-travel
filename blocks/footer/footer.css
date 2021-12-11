@@ -1,0 +1,33 @@
+.footer{
+    border: 1px solid pink;
+    /*max-width: 1184px;*/
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, 'sans-serif';
+    font-style: normal;
+    color: #FFFFFF;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        max-width: 928px;        
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        max-width: 720px;
+        margin-top: 88px;        
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        /*max-width: 186px;*/
+        flex-direction: column;
+        margin: 64px auto 0 16px;
+    }
+}
