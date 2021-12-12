@@ -2,20 +2,20 @@
     font-weight: bold;
     font-size: 54px;
     line-height: 58px;
-    max-width: 690px;    
+    max-width: 690px;
     margin-top: 0;
     margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
     .intro__title{
-        max-width: 720px;  
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 426px) {
     .intro__title{
-        max-width: 394px; 
+        max-width: 394px;
         font-size: 36px;
         line-height: 39px; 
     }
@@ -25,7 +25,7 @@
     .intro__title{
         max-width: 343px;
         font-size: 34px;
-        line-height: 37px;  
+        line-height: 37px;
     }
 }
 
@@ -33,7 +33,7 @@
     .intro__title{
         max-width: 288px;
         font-size: 32px;
-        line-height: 35px;  
+        line-height: 35px;
     }
 }
     
