@@ -3,11 +3,26 @@
     padding: 0;    
 }
 
+@media screen and (max-width: 426px) {
+    .footer__links{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }    
+}
+/*
+@media screen and (max-width: 376px) {
+    .footer__links{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }    
+}
+
 @media screen and (max-width: 320px) {
     .footer__links{
         flex-direction: column;
         justify-content: space-between;
         margin: 0;
-    }
-    
-}
+    }    
+}*/

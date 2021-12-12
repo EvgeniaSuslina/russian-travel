@@ -5,6 +5,22 @@
     text-align: right;
 }
 
+@media screen and (max-width: 426px) {
+    .footer__copyright{        
+        font-size: 14px;
+        line-height: 1;
+        text-align: left;
+    }    
+}
+/*
+@media screen and (max-width: 376px) {
+    .footer__copyright{        
+        font-size: 14px;
+        line-height: 1;
+        text-align: left;
+    }    
+}
+
 @media screen and (max-width: 320px) {
     .footer__copyright{        
         font-size: 14px;
@@ -12,3 +28,4 @@
         text-align: left;
     }    
 }
+*/

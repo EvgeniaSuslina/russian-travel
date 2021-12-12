@@ -1,6 +1,4 @@
-.footer{
-    border: 1px solid pink;
-    /*max-width: 1184px;*/
+.footer{      
     display: flex;
     justify-content: space-between;
     font-family: 'Inter', Arial, 'sans-serif';
@@ -23,10 +21,21 @@
         margin-top: 88px;        
     }    
 }
+@media screen and (max-width: 426px) {
+    .footer{       
+        flex-direction: column;
+        margin: 64px auto 0 16px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .footer{        
+        flex-direction: column;
+        margin: 64px auto 0 16px;
+    }
+}
 
 @media screen and (max-width: 320px) {
-    .footer{
-        /*max-width: 186px;*/
+    .footer{        
         flex-direction: column;
         margin: 64px auto 0 16px;
     }

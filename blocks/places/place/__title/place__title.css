@@ -23,6 +23,24 @@
     }     
 }
 
+@media screen and (max-width: 426px) {
+    .place__title{
+        max-width: 394px;
+        font-size: 36px;
+        line-height: 38px;
+        margin: auto 16px 0 16px;
+    }     
+}
+
+@media screen and (max-width: 376px) {
+    .place__title{
+        max-width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto 16px 0 16px;
+    }     
+}
+
 @media screen and (max-width: 320px) {
     .place__title{
         max-width: 288px;

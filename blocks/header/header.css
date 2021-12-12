@@ -4,9 +4,7 @@
     display: flex;    
     justify-content: space-between;
     margin: 0 auto;
-    margin: 28px 48px auto 48px;
-
-    border: 1px solid red;
+    margin: 28px 48px auto 48px;    
    }
 
    @media screen and (max-width: 1024px){

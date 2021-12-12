@@ -5,21 +5,29 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid__item{
-        width: 300px;
-        margin: 0;  
+        width: 300px;          
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid__item{
-        width: 352px;
-        margin: 0;  
+        width: 352px;        
     }
+}
+@media screen and (max-width: 426px) {
+    .photo-grid__item{
+        width: 394px;       
+    }    
+}
+
+@media screen and (max-width: 376px) {
+    .photo-grid__item{
+        width: 343px;         
+    }    
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid__item{
-        width: 288px;
-        margin: 0;  
+        width: 288px;          
     }
 }

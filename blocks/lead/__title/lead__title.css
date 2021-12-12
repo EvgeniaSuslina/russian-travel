@@ -7,19 +7,19 @@
     margin:0 auto;    
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 426px){
     .lead__title{
-        font-size: 50px;
+        font-size: 55px;
         line-height: 1.05;
-        max-width: 430px;
+        max-width: 394px;
     }
 }
 
-@media all and (max-width: 375px){
+@media all and (max-width: 376px){
     .lead__title{
         font-size: 50px;
         line-height: 1.05;
-        max-width: 430px;
+        max-width: 343px;
     }
 }
 

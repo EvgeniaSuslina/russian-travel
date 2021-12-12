@@ -14,6 +14,26 @@
     }
 }
 
+@media screen and (max-width: 426px){
+    .lead__subtitle{
+        max-width: 394px;
+        min-height: 50px;
+        margin: 16px auto 40px auto;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .lead__subtitle{
+        max-width: 343px;
+        min-height: 40px;
+        margin: 16px auto 40px auto;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 @media screen and (max-width: 320px){
     .lead__subtitle{
         max-width: 288px;
