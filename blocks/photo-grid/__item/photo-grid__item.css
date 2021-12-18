@@ -3,6 +3,24 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1248px) {
+    .photo-grid__item{
+        width: 275px;          
+    }
+}
+
+@media screen and (max-width: 1185px) {
+    .photo-grid__item{
+        width: 340px;          
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .photo-grid__item{
+        width: 300px;          
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .photo-grid__item{
         width: 300px;          

@@ -6,6 +6,51 @@
     margin: 92px 48px 92px 48px;
    }
 
+@media screen and (max-width: 1248px) {
+    .photo-grid{
+        grid-template-columns: repeat(4, minmax(275px, 275px));
+        gap: 28px;
+        margin: 92px 24px 92px 24px;        
+    }    
+}
+
+@media screen and (max-width: 1225px) {
+    .photo-grid{
+        grid-template-columns: repeat(4, minmax(275px, 275px));
+        gap: 16px;
+        margin: 92px 24px 92px 24px;        
+    }    
+}
+
+@media screen and (max-width: 1185px) {
+    .photo-grid{
+        grid-template-columns: repeat(3, minmax(340px, 340px));
+        gap: 22px;
+                
+    }    
+}
+@media screen and (max-width: 1150px) {
+    .photo-grid{        
+        gap: 14px;
+        margin: 92px 16px 92px 16px;        
+    }    
+}
+
+@media screen and (max-width: 1100px) {
+    .photo-grid{
+        grid-template-columns: repeat(3, minmax(300px, 300px));
+        gap: 20px;                
+    }    
+}
+
+@media screen and (max-width: 1050px) {
+    .photo-grid{        
+        gap: 18px;
+        margin: 92px 14px 92px 14px;
+
+    }    
+}
+
 @media screen and (max-width: 1024px) {
     .photo-grid{
         grid-template-columns: repeat(3, minmax(300px, 300px));

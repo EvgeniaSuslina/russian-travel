@@ -9,6 +9,11 @@
     "header header"
     "content content";
 }
+@media screen and (max-width: 1200px) {
+    .place{
+        grid-template-columns: 450px 1fr;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .place{
