@@ -7,7 +7,6 @@
     max-width: 1184px;
     min-height: 740px;
     text-decoration: none;
-
 }
 
 .cover__overlay::before{
@@ -31,12 +30,9 @@
         min-height: 640px;
     }    
 }
-
-
 @media screen and (max-width: 1024px) {
     .cover__overlay{
-        max-width: 1024px;
-        min-height: 640px;
+        max-width: 1024px;        
     }    
 }
 

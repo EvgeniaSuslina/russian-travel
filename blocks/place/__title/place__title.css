@@ -11,7 +11,6 @@
 @media screen and (max-width: 1024px) {
     .place__title{
         max-width: 440px;
-
     }    
 }
 
@@ -36,16 +35,12 @@
     .place__title{
         max-width: 343px;
         font-size: 32px;
-        line-height: 35px;
-        margin: auto 16px 0 16px;
+        line-height: 35px;        
     }     
 }
 
 @media screen and (max-width: 320px) {
     .place__title{
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin: auto 16px 0 16px;
+        max-width: 288px;        
     }     
 }

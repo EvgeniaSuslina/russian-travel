@@ -3,29 +3,20 @@
     font-size: 14px;
     line-height: 16px;
     text-align: right;
+    margin: 0;
+    margin-bottom: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__copyright{        
+        margin-bottom: 24px;
+    }    
 }
 
 @media screen and (max-width: 426px) {
-    .footer__copyright{        
-        font-size: 14px;
+    .footer__copyright{     
         line-height: 1;
         text-align: left;
+        margin-top: 48px;
     }    
 }
-/*
-@media screen and (max-width: 376px) {
-    .footer__copyright{        
-        font-size: 14px;
-        line-height: 1;
-        text-align: left;
-    }    
-}
-
-@media screen and (max-width: 320px) {
-    .footer__copyright{        
-        font-size: 14px;
-        line-height: 1;
-        text-align: left;
-    }    
-}
-*/

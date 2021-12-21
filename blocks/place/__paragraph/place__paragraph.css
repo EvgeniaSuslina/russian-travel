@@ -6,6 +6,10 @@
     margin: 0 0 26px 40px;   
 }
 
+.place__paragraph:last-of-type{
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
     .place__paragraph{
         max-width: 456px;
@@ -17,30 +21,25 @@
     .place__paragraph{
         max-width: 352px;
         margin: 0 0 25px 28px;
-        font-size: 16px;
+        font-size: 16px;       
     }
 }
 
 @media screen and (max-width: 426px) {
     .place__paragraph{
         max-width: 394px;
-        margin: 32px 16px 25px 16px;
-        font-size: 16px;
+        margin: 32px 16px 25px 16px;        
     }
 }
 
 @media screen and (max-width: 376px) {
     .place__paragraph{
-        max-width: 343px;
-        margin: 32px 16px 25px 16px;
-        font-size: 16px;
+        max-width: 343px;        
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph{
-        max-width: 288px;
-        margin: 32px 16px 25px 16px;
-        font-size: 16px;
+        max-width: 288px;       
     }
 }
