@@ -4,8 +4,14 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    margin: 0 auto;
-   
+    margin: 0 auto;   
+}
+
+@media screen and (max-width: 520px){
+    .cover__title{        
+        font-size: 50px;
+        line-height: 52px;     
+    }      
 }
 
 @media screen and (max-width: 426px){

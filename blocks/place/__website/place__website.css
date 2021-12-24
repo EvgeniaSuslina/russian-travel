@@ -20,6 +20,24 @@
     }    
 }
 
+@media screen and (max-width: 680px) {
+    .place__website{
+        margin-left: 0;
+    }    
+}
+
+@media screen and (max-width: 630px) {
+    .place__website{
+        margin-left: 16px;
+    }   
+}
+
+@media screen and (max-width: 520px) {
+    .place__website{
+        margin-left: 0;
+    }    
+}
+
 @media screen and (max-width: 426px) {
     .place__website{
         margin: 32px 16px 32px 16px;
