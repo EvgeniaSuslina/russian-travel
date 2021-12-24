@@ -10,21 +10,21 @@
 @media all and (max-width: 760px){
     .lead__title{
         font-size: 76px;
-        max-width: calc(100%-48px)
+        max-width: calc(100% - 48px);
     }
 }
 
 @media all and (max-width: 682px){
     .lead__title{
         font-size: 68px;
-        max-width: calc(100%-48px)
+        max-width: calc(100% - 48px);
     }
 }
 
 @media all and (max-width: 538px){
     .lead__title{
         font-size: 60px;
-        max-width: calc(100%-48px)
+        max-width: calc(100% - 48px);
     }
 }
 
